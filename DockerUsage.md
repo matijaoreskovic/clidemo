@@ -32,12 +32,12 @@ where
 `version` is version of deployment (eg. alpha)
 
 After the build is complete you should get similar result:
-![Alt slika koju treba ubaciti]()
+![Alt slika koju treba ubaciti](https://user-images.githubusercontent.com/102029624/175520209-6b806d79-212c-42e6-9ca5-4ccb3f2d5793.png)
 
 Next step is to run and try image. That is accomplished using:
 ```bash
 docker run -it --name cli-test moreskovic/cli:3
 ```
 And response should bi like this:
-![Alt slika koju treba ubaciti]()
+![Alt slika koju treba ubaciti](https://user-images.githubusercontent.com/102029624/175520213-721bf93f-f587-4cbc-9e7c-9e0b6dacd26d.png)
 
