@@ -28,6 +28,7 @@ docker build -t dockerHubUsername/containerName:version .
 ```
 where:
 -   `-t` stands for `tag` and tags created image with entered parameters
+-   `dockerHubUsername` users username for [DockerHub](https://hub.docker.com/)
 -   `containerName` is arbitrarily name of image
 -   `version` is image version (eg. alpha)
 
