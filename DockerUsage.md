@@ -41,7 +41,7 @@ Dot (.) on the end of command represents that Dockerfile is located within curre
 
 Next step is to run and try image. That is accomplished using:
 ```bash
-docker run -i -t --name cli-test mdockerHubUsername/containerName:version
+docker run -i -t --name cli-test --restart always mdockerHubUsername/containerName:version
 ```
 where:
 -   `-i` keeps STDIN opened
@@ -50,5 +50,5 @@ where:
 ### And response should bi like this:
 <br>
 
-![cli](https://user-images.githubusercontent.com/102029624/175520213-721bf93f-f587-4cbc-9e7c-9e0b6dacd26d.png)
+![cli](https://user-images.githubusercontent.com/102029624/175928662-3fed0df5-8fe3-4a52-bcf7-76f13e12392d.png)
 
